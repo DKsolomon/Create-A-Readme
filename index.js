@@ -32,18 +32,18 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Please write any contribution guidelines for your project',
+        message: 'Please list any contributers for your project', 
     },
     {
         type: 'input',
         name: 'testing',
-        message: 'Any testing instructions for oyur project?',
+        message: 'Any testing instructions for your project?',
     },
     {
         type: 'list',
         name: 'license',
         message: 'Which licence is your project using?',
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSL', 'BSD 3.0', 'None'],
     },
     {
         type: 'input',
