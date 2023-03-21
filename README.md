@@ -25,7 +25,7 @@
 
   Here is a video link demonstrating the app's functionality
   
-  https://drive.google.com/file/d/1oOi8YSsZZIekf0Tqazsyqd8TNtJ27WBg/view
+  https://drive.google.com/file/d/1L_blDQog5K0uAvs3rWWZg9yVWPkIOybW/view
 
   ## Screenshots
 
@@ -44,5 +44,4 @@
   Email: DKSolomon8135@gmail.com
   
   Github: DKSolomon
-
 
