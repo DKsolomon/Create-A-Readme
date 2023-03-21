@@ -10,9 +10,9 @@
   ## Table of Contents
   [Installation](#installation)
   [Usage](#usage)
+  [Video](#video)
+  [Screenshots](#screenshots)
   [License](#licence)
-  [Contribution](#contribution)
-  [Tests](#tests)
   [Questions](#questions)
 
   ## Installation
@@ -21,21 +21,27 @@
   ## Usage
   In the terminal, type in "node index.js" to start the program, then follow the prompts
 
+  ## Video
+
+  Here is a video link demonstrating the app's functionality
+  
+  https://drive.google.com/file/d/1oOi8YSsZZIekf0Tqazsyqd8TNtJ27WBg/view
+
+  ## Screenshots
+
+  ![Index.js](assets/Screenshot%20(103).png)
+  ![generateMarkdown.js](assets/Screenshot%20(104).png)
+
   ## License 
   
     License
   This project is licensed under the MIT Lisense. https://opensource.org/license/mit-0/
 
-  ## Contributions 
-  
-
-  ## Tests
-  undefined
 
   ## Questions
   If you have any questions, please reach out to my email, or github page!
 
-  Email: DKSolomon@gmail.com
+  Email: DKSolomon8135@gmail.com
   
   Github: DKSolomon
 
