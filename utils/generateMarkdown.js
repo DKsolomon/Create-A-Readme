@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// This function renders a license badge based on user input on which license was chosen.
+// If no license was picked, an empty string is returned 
 function renderLicenseBadge(license) {
   if (license === 'MIT') {
     return '![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)';
@@ -17,37 +17,37 @@ function renderLicenseBadge(license) {
 }
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// This function returns the license link 
+// If no license was picked, an empty string is returned
 function renderLicenseLink(license) {
   if (license === 'MIT') {
-    return 'https://opensource.org/license/mit-0/';
+    return 'MIT Lisense. https://opensource.org/license/mit-0/';
   } else if (license === 'Apache 2.0') {
-    return 'https://opensource.org/license/apache-2-0/';
+    return 'Apache 2.0 Lisense. https://opensource.org/license/apache-2-0/';
   } else if (license === 'GPL 3.0') {
-    return 'https://opensource.org/license/gpl-3-0/';
+    return 'GPL 3.0 Lisense. https://opensource.org/license/gpl-3-0/';
   } else if (license === 'BSL') {
-    return 'https://opensource.org/license/bsl1-0-html/';
+    return 'BSL Lisense. https://opensource.org/license/bsl1-0-html/';
   } else if (license === 'BSD 3.0') {
-    return 'https://opensource.org/license/bsd-3-clause/';
+    return 'BSD 3.0 Lisense. https://opensource.org/license/bsd-3-clause/';
   } else { 
     return '';
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// This function returns a pre built license section of the README
+// If no license was picked, an empty string is returned
 function renderLicenseSection(license) {
   if (license) {
     return `
     License
-  This project is licensed under the ${renderLicenseLink(license)} license.`
+  This project is licensed under the ${renderLicenseLink(license)}`
   } else {
     return '';
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// This function generates the markdown for the README based on user input to the questions
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -72,7 +72,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ##License 
+  ## License 
   ${renderLicenseSection(data.license)}
 
   ## Contributions 
